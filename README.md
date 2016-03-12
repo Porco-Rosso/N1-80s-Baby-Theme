@@ -1,9 +1,9 @@
-#### [Important Notice](https://github.com/nylas/N1/releases/tag/0.4.14)<br>Darkside is now bundled with N1. New installation instructions coming soon.
-
-# Darkside
-A customizable, dark sidebar theme for [Nylas N1](https://nylas.com/n1).
+# 80's Baby theme
+A fork of the customizable, dark sidebar theme for [Nylas N1](https://nylas.com/n1).
+Made to match [Bracket's 80's Baby theme](https://github.com/Brackets-Themes/80sBaby).
 
 [![Default Theme](./images/default.png)](./images/default.png)
+[![Default Theme Inactive](./images/default2.png)](./images/default2.png)
 
 [See other example themes →](http://jamiewilson.io/darkside)
 
@@ -12,12 +12,14 @@ A customizable, dark sidebar theme for [Nylas N1](https://nylas.com/n1).
 ### Step 1: Download
 
 #### Option 1: via the command line  
-`git clone https://github.com/jamiewilson/darkside.git ~/.nylas/packages/darkside-master`
+`git clone https://github.com/Porco-Rosso/darkside.git ~/.nylas/packages/darkside-master`
 
 **Note:** _Be sure to clone the repo as `darkside-master` or else images referenced in the CSS won't be found._
 
+<!--
 #### Option 2: the ZIP archive  
 [![Download Darkside](./images/download.png)](https://github.com/jamiewilson/darkside/archive/master.zip)
+-->
 
 Then, unzip `darkside-master.zip`.
 
@@ -38,8 +40,12 @@ To customize Darkside, open `darkside-master/styles/darkside.less` in a text edi
 
 ```sass
 // Default
-@sidebar: #313042;
-@accent: #F18260;
+@sidebar: #3c3f41;
+@sidebar2: #47484B;
+@accent: #7fb0ff;
+@accent2: #BE9CFF;
+@accent3: #16D3EA;
+@accent4: #FD7CFC;
 
 // Luna
 // @sidebar: #202C46;
@@ -63,4 +69,4 @@ To customize Darkside, open `darkside-master/styles/darkside.less` in a text edi
 ```
 
 ### Feedback
-If you have questions or suggestions, please add an issue. Or if you need to, you can email me at [jamie@jamiewilson.io](mailto:jamie@jamiewilson?subject=Re: Darkside).
+If you have questions or suggestions, please add an issue.
