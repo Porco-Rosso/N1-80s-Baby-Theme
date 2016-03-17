@@ -739,6 +739,15 @@ body.is-blurred .sheet-toolbar-container .btn.btn-toolbar img {
 //  Composer Popup
 //====================================================
 
+body.is-blurred .sheet-toolbar-container {
+    background-image: none;
+}
+
+.sheet-toolbar-container.mode-popout {
+    background-color: @messagelist-bg;
+	color: white;
+}
+
 .composer-inner-wrap .composer-action-bar-wrap, .composer-full-window .composer-inner-wrap .composer-action-bar-wrap {
     background: @messagelist-bg;
     border-bottom-left-radius: 3px;
@@ -748,3 +757,4 @@ body.is-blurred .sheet-toolbar-container .btn.btn-toolbar img {
 .composer-inner-wrap .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis) img.content-mask {
     background-color: @inactive-thread-text;
 }
+
