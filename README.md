@@ -4,6 +4,7 @@ Made to match [Bracket's 80's Baby theme](https://github.com/Brackets-Themes/80s
 
 [![Default Theme](./images/default.png)](./images/default.png)
 [![Default Theme Inactive](./images/default2.png)](./images/default2.png)
+[![Default Theme composer window](./images/default3.png)](./images/default3.png)
 
 [See other example themes →](http://jamiewilson.io/darkside)
 
