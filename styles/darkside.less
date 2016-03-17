@@ -732,5 +732,19 @@ body.is-blurred .sheet-toolbar-container .btn.btn-toolbar img {
 }
 
 .sheet-toolbar .btn-toolbar img.content-mask {
-    background-color: #e4e4e4;
+    background-color: @inactive-thread-text;
+}
+
+//====================================================
+//  Composer Popup
+//====================================================
+
+.composer-inner-wrap .composer-action-bar-wrap, .composer-full-window .composer-inner-wrap .composer-action-bar-wrap {
+    background: @messagelist-bg;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.composer-inner-wrap .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis) img.content-mask {
+    background-color: @inactive-thread-text;
 }
