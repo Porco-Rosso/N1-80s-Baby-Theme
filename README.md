@@ -2,9 +2,9 @@
 A fork of the customizable, dark sidebar theme for [Nylas N1](https://nylas.com/n1).
 Made to match [Bracket's 80's Baby theme](https://github.com/Brackets-Themes/80sBaby).
 
-[![Default Theme](./images/default.png)](./images/default.png)
-[![Default Theme Inactive](./images/default2.png)](./images/default2.png)
-[![Default Theme composer window](./images/default3.png)](./images/default3.png)
+[![Default Theme](./images/active.png)](./images/active.png)
+[![Default Theme Inactive](./images/inactive.png)](./images/inactive.png)
+[![Default Theme composer window](./images/composer.png)](./images/composer.png)
 
 [See other example themes →](http://jamiewilson.io/darkside)
 
