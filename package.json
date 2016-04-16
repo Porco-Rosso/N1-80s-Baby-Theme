@@ -1,13 +1,13 @@
 {
-  "name": "ui-darkside",
-  "displayName": "Darkside",
+  "name": "80sBaby",
+  "displayName": "80s Baby",
   "theme": "ui",
-  "version": "1.0.0",
-  "description": "A customizable, dark sidebar theme for Nylas N1",
+  "version": "2.0.0",
+  "description": "A customizable, dark sidebar theme for Nylas N1, based on Darkside",
   "license": "MIT",
   "engines": {
     "nylas": "*"
   },
-  "styleSheets": ["darkside"],
+  "styleSheets": ["80sBaby"],
   "private": true
 }
