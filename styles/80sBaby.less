@@ -35,6 +35,7 @@
 
 @threadlist-bg: #2e2e31;
 @messagelist-bg: #47484b;
+@textgrey: #333333;
 @active-thread-text: #2e2e31;
 @inactive-thread-text: #e4e4e4;
 @sidebar-text: desaturate(lighten(@sidebar, 40%), 75%);
@@ -406,7 +407,22 @@ body.is-blurred .list-tabular .list-tabular-item.keyboard-cursor {
 
 .thread-list .unread:not(.focused):not(.selected), .draft-list .unread:not(.focused):not(.selected) {
     background-color: @accent;
-    color: #333333;
+    color: @textgrey;
+}
+
+
+.thread-list .unread:not(.focused) .participants .unread-true, .draft-list .unread:not(.focused) .participants .unread-true {
+    color: @textgrey;
+}
+
+.thread-list .unread:not(.focused) .subject, .draft-list .unread:not(.focused) .subject {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.thread-list .unread:not(.focused):not(.selected) .snippet, .draft-list .unread:not(.focused):not(.selected) .snippet {
+    color: @textgrey;
+    opacity: 1;
 }
 
 //====================================================
@@ -513,6 +529,7 @@ body.is-blurred .list-tabular .list-tabular-item.keyboard-cursor {
     background-color: #AEEE00;
     -webkit-mask-image: url(../static/images/thread-list/icon-unread-@2x.png);
 }
+
 
 //====================================================
 //  Swiping
