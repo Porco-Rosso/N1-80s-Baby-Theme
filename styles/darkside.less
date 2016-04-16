@@ -30,6 +30,7 @@
 @accent2: #BE9CFF;
 @accent3: #16D3EA;
 @accent4: #FD7CFC;
+@accent5: #AEEE00;
 
 
 @threadlist-bg: #2e2e31;
@@ -403,6 +404,11 @@ body.is-blurred .list-tabular .list-tabular-item.keyboard-cursor {
     color: #6C90CA;
 }
 
+.thread-list .unread:not(.focused):not(.selected), .draft-list .unread:not(.focused):not(.selected) {
+    background-color: @accent;
+    color: #333333;
+}
+
 //====================================================
 //  Search & Suggestion Menu
 //====================================================
@@ -500,6 +506,12 @@ body.is-blurred .list-tabular .list-tabular-item.keyboard-cursor {
 
 .thread-list .list-item.focused:hover .list-column-HoverActions .inner .action.action-trash {
   background: url("../static/images/thread-list-quick-actions/ic-quick-button-trash@2x.png") center no-repeat, linear-gradient(to top, rgba(241, 241, 241, 0.75) 0%, rgba(253, 253, 253, 0.75) 100%);
+}
+
+.thread-list .thread-icon.thread-icon-unread {
+    background-image: none;
+    background-color: #AEEE00;
+    -webkit-mask-image: url(../static/images/thread-list/icon-unread-@2x.png);
 }
 
 //====================================================
