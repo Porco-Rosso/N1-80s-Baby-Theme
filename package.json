@@ -2,11 +2,12 @@
   "name": "80sBaby",
   "displayName": "80s Baby",
   "theme": "ui",
-  "version": "2.0.1",
-  "description": "A customizable, dark sidebar theme for Nylas N1, based on Darkside",
+  "version": "3.0.0",
+  "description": "A customizable, dark sidebar theme for Mailspring, based on Darkside",
   "license": "MIT",
   "engines": {
-    "nylas": "*"
+    "nylas": "*",
+    "mailspring": "*"
   },
   "styleSheets": ["80sBaby"],
   "private": true

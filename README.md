@@ -1,7 +1,7 @@
 # 80's Baby theme
-`v2.0.1`
+`v3.0.0`
 
-A fork of the customizable, dark sidebar theme for [Nylas N1](https://nylas.com/n1).
+A fork of the customizable, dark sidebar theme for ~~[Nylas N1](https://nylas.com/n1)~~ [Mailspring](https://github.com/Foundry376/Mailspring).
 Made to match [Bracket's 80's Baby theme](https://github.com/Brackets-Themes/80sBaby).
 
 [![Default Theme](./images/active.png)](./images/active.png)
@@ -15,7 +15,7 @@ Made to match [Bracket's 80's Baby theme](https://github.com/Brackets-Themes/80s
 ### Step 1: Download
 
 #### Option 1: via the command line  
-`git clone https://github.com/Porco-Rosso/N1-80s-Baby-Theme.git ~/.nylas/packages/80sBaby`
+`git clone https://github.com/Porco-Rosso/N1-80s-Baby-Theme.git ~/Library/Application\ Support/Mailspring/packages/80sBaby`
 
 #### Option 2: the ZIP archive  
 [[Download 80sBaby]](https://github.com/Porco-Rosso/N1-80s-Baby-Theme/archive/master.zip)
@@ -24,14 +24,11 @@ Made to match [Bracket's 80's Baby theme](https://github.com/Brackets-Themes/80s
 Then, unzip `80sBaby-master.zip`.
 
 ### Step 2: Install
-Open the Nylas N1 Preferences panel with <kbd>Cmd</kbd> + <kbd>,</kbd> or `Nylas N1 > Preferences` and choose `Install a theme…` from the `Select Theme` dropdown.
+Open the toolbar and select `Mailspring > Install Theme...`
 
-![Default Theme](./images/install.png)
 
 ### Step 3: Activate
-Select the `80sBaby-master` folder and press `Open`. N1 will make a copy of the theme files into your `.nylas/packages` directory and notify you that the theme has been installed.
-
-If you need to get back to the package files, they're located at `/Users/<yourUsername>/.nylas/packages/80sBaby-master`. Either use Terminal or you can open a Finder window and press <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> and paste the path in, replacing `<yourUsername>` with your username.
+Select the `80sBaby-master` folder and press `Open`. N1 will make a copy of the theme files into your `~/Library/Application\ Support/Mailspring/packages/` directory and notify you that the theme has been installed.
 
 ### Step 3: Customize
 To customize 80sBaby, open `80sBaby-master/styles/80sBaby.less` in a text editor.
